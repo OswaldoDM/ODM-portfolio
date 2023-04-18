@@ -103,7 +103,9 @@ ${open && "bg-[#ecf8ff]"}
                 text-[#09141dce] bg-white    
                 `}>    
                     
-                    <a href="#projects" className={`cursor-pointer`}>Projects</a>
+                    <a href="#projects"
+                    onClick={handleClick} 
+                    className={`cursor-pointer`}>Projects</a>
                     
                     <a aria-label="github" rel="noopener noreferrer" target="_blank" href="#" 
                     className={`relative h-9 w-9 
@@ -116,7 +118,9 @@ ${open && "bg-[#ecf8ff]"}
                         </svg>
                     </a>             
     
-                    <a href="#contact" className= 
+                    <a href="#contact"
+                    onClick={handleClick} 
+                    className= 
                     {`text-white text-center bg-primary-blue rounded-full py-2 
                     active:transform active:scale-95`}>                
                         Contact

@@ -66,11 +66,11 @@ return(
 
                 <a href='#projects' className='flex justify-center mt-16 lg:hidden'>
 
-                    <div class="arrow-scroll">
+                    <div className="arrow-scroll">
 
-                        <div class="arrow"></div>
-                        <div class="arrow"></div>
-                        <div class="arrow"></div>
+                        <div className="arrow"></div>
+                        <div className="arrow"></div>
+                        <div className="arrow"></div>
 
                     </div>
 
