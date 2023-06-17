@@ -69,8 +69,7 @@ return(
                     <div className="arrow-scroll">
 
                         <div className="arrow"></div>
-                        <div className="arrow"></div>
-                        <div className="arrow"></div>
+                        <div className="arrow"></div>                        
 
                     </div>
 
