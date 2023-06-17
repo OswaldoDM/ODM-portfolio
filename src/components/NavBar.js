@@ -107,7 +107,7 @@ ${open && "bg-[#ecf8ff]"}
                     onClick={handleClick} 
                     className={`cursor-pointer`}>Projects</a>
                     
-                    <a aria-label="github" rel="noopener noreferrer" target="_blank" href="#" 
+                    <a aria-label="github" rel="noopener noreferrer" target="_blank" href="https://github.com/OswaldoDM" 
                     className={`relative h-9 w-9 
                     flex items-center justify-center 
                     before:absolute before:inset-0 before:rounded-full 
