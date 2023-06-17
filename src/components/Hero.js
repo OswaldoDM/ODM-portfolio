@@ -70,6 +70,7 @@ return(
 
                         <div className="arrow"></div>
                         <div className="arrow"></div>                        
+                        <div className="arrow"></div>                        
 
                     </div>
 
