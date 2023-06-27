@@ -5,6 +5,9 @@ import MG from './../assets/MG.png';
 import MGC from './../assets/MGC.png';
 import SunRose from './../assets/SunRose.png';
 
+import { FaReact} from "react-icons/fa";
+import { SiTailwindcss} from "react-icons/si";
+
 
 export function Projects({open,handleClick}) {
 
@@ -54,6 +57,15 @@ return(
 
                 <div className='flex gap-1'>
 
+                {/* <p className = "text-sky-400 text-xl xl:text-2xl flex items-center ">
+                    {<FaReact />}
+                </p>
+
+                <p className = "text-cyan-500 text-xl xl:text-2xl flex items-center "
+                >   
+                    {<SiTailwindcss />}
+                </p>        */}
+
                 <a href="https://tailwindcss.com/" target='_blank' 
                 className= 
                 {`bg-teal-100 px-3 py-1 text-xs 
@@ -67,7 +79,7 @@ return(
                 {`bg-teal-100 px-3 py-1 text-xs 
                 rounded-full font-medium text-primary-blue
                 `}>
-                    Reactjs
+                    React
                 </a>
 
                 </div>                
@@ -114,8 +126,8 @@ return(
                 {`bg-teal-100 px-3 py-1 text-xs 
                 rounded-full font-medium text-primary-blue
                 `}>
-                    Reactjs
-                </a>
+                    React
+                </a>                
 
                 </div>
                 
@@ -162,7 +174,7 @@ return(
                 {`bg-teal-100 px-3 py-1 text-xs 
                 rounded-full font-medium text-primary-blue
                 `}>
-                    Reactjs
+                    React
                 </a>
 
                 </div>
@@ -209,7 +221,7 @@ return(
                 {`bg-teal-100 px-3 py-1 text-xs 
                 rounded-full font-medium text-primary-blue
                 `}>
-                    Reactjs
+                    React
                 </a>
 
                 </div>
