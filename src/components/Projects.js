@@ -11,7 +11,7 @@ export function Projects({open,handleClick}) {
 return(
 
 <>
-<section id='projects' className={`bg-gray-100 ${open && 'blur'}`}>
+<section id='projects' className={`bg-white ${open && 'blur'}`}>
 
     <div className="container mx-auto px-12 mb-20">
 

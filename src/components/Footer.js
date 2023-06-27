@@ -6,7 +6,7 @@ export function Footer({open,handleClick}){
 return(
 
 <>
-<section id="contact" className={`bg-gray-100 ${open && 'blur'}`}>
+<section id="contact" className={`bg-white ${open && 'blur'}`}>
 
     <div className="container mx-auto">
 

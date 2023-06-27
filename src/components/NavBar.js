@@ -8,8 +8,8 @@ export function NavBar({open, handleClick}) {
 <>
     
 <section className= 
-{`bg-gray-100
-${open && "bg-[#ecf8ff]"}
+{`bg-white
+${open && "bg-[#f6fbfe]"}
 `}>
     
         <div className=

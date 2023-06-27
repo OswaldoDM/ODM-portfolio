@@ -14,7 +14,7 @@ export function Hero({open,handleClick}) {
 return(
 
 <>
-<section className={`bg-gray-100 ${open && 'blur'}`}>
+<section className={`bg-white ${open && 'blur'}`}>
 
     <div className= 
     {`container mx-auto lg:flex 
@@ -85,7 +85,7 @@ return(
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-primary-gray 
-                        hover:border-sec-gray
+                        hover:border-gray-300
                         transition duration-300
                         cursor-pointer rounded-sm
                         `}>
@@ -95,7 +95,7 @@ return(
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-primary-gray
-                        hover:border-sec-gray
+                        hover:border-gray-300
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
@@ -105,7 +105,7 @@ return(
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-primary-gray
-                        hover:border-sec-gray
+                        hover:border-gray-300
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
