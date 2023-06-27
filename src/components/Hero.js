@@ -1,12 +1,8 @@
 import hero_img from './../assets/dev1.svg';
-import SW from './../assets/SmartWatch1.png';
 import CT from './../assets/CryptoToday.png';
 import IN from './../assets/Influencer1.png';
 import Space from './../assets/Space.png';
 import { SiLinkedin } from 'react-icons/si';
-
-
-
 
 
 export function Hero({open,handleClick}) {
@@ -84,8 +80,8 @@ return(
                         <a href='https://oswaldodm.github.io/Influencer/' target='_blank' 
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
-                        2xl:border-8 border-primary-gray 
-                        hover:border-gray-300
+                        2xl:border-8 border-gray-300 
+                        hover:border-primary-gray
                         transition duration-300
                         cursor-pointer rounded-sm
                         `}>
@@ -94,8 +90,8 @@ return(
                         <a href='https://oswaldodm.github.io/space-x-2023/' target='_blank' 
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
-                        2xl:border-8 border-primary-gray
-                        hover:border-gray-300
+                        2xl:border-8 border-gray-300
+                        hover:border-primary-gray
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
@@ -104,8 +100,8 @@ return(
                         <a href='https://oswaldodm.github.io/react-cryptoToday/' target='_blank' 
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
-                        2xl:border-8 border-primary-gray
-                        hover:border-gray-300
+                        2xl:border-8 border-gray-300
+                        hover:border-primary-gray
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>

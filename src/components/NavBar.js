@@ -7,10 +7,7 @@ export function NavBar({open, handleClick}) {
     
 <>
     
-<section className= 
-{`bg-white
-${open && "bg-[#f6fbfe]"}
-`}>
+<section className= "bg-white">
     
         <div className=
         {`container mx-auto
