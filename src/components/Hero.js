@@ -14,8 +14,8 @@ return(
 
     <div className= 
     {`container mx-auto lg:flex 
-    pt-[140px] sm:pt-[120px] md:pt-20 lg:pt-12 
-    pb-24 lg:pb-28 xl:pb-36
+    pt-[170px] sm:pt-[120px] md:pt-20 lg:pt-12 
+    pb-20 lg:pb-28 xl:pb-36
     lg:pr-5 xl:pr-0 
     `}>
 
