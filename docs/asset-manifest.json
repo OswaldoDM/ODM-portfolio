@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.14002eeb.css",
-    "main.js": "./static/js/main.4808b191.js",
+    "main.css": "./static/css/main.c039ad5f.css",
+    "main.js": "./static/js/main.834fd446.js",
     "static/media/MGC.png": "./static/media/MGC.838bc467ce2ef71580ae.png",
     "static/media/Space.png": "./static/media/Space.814e0f44348e716137c8.png",
     "static/media/scm.png": "./static/media/scm.d8b36b3751c8e3a66863.png",
@@ -11,13 +11,14 @@
     "static/media/SunRose.png": "./static/media/SunRose.933e7f07ed8d50dca86e.png",
     "static/media/CryptoToday.png": "./static/media/CryptoToday.a0c4be9cbc5c4e9da1c0.png",
     "static/media/dev1.svg": "./static/media/dev1.125fa720be04054cd2d743227b1cb0cb.svg",
+    "static/media/journalApp.png": "./static/media/journalApp.69290cf94ed1be0c1d1a.png",
     "static/media/Blanka.otf": "./static/media/Blanka.16f6265b20de0db4a921.otf",
     "index.html": "./index.html",
-    "main.14002eeb.css.map": "./static/css/main.14002eeb.css.map",
-    "main.4808b191.js.map": "./static/js/main.4808b191.js.map"
+    "main.c039ad5f.css.map": "./static/css/main.c039ad5f.css.map",
+    "main.834fd446.js.map": "./static/js/main.834fd446.js.map"
   },
   "entrypoints": [
-    "static/css/main.14002eeb.css",
-    "static/js/main.4808b191.js"
+    "static/css/main.c039ad5f.css",
+    "static/js/main.834fd446.js"
   ]
 }

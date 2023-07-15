@@ -6,10 +6,13 @@ import MGC from './../assets/MGC.png';
 import SunRose from './../assets/SunRose.png';
 import chuckApp from './../assets/chuckApp.png';
 import scm from './../assets/scm.png';
+import journal from './../assets/journalApp.png';
+import material from './../assets/material.png';
 
 import { FaReact} from "react-icons/fa";
 import { SiTailwindcss} from "react-icons/si";
 import { SiReactrouter} from "react-icons/si";
+import { SiFirebase} from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import { FaElementor } from "react-icons/fa";
@@ -37,17 +40,17 @@ return(
 
             <div className='flex flex-col items-center lg:items-start'>
                 <a href='https://oswaldodm.github.io/Influencer/' target='_blank'>
-                <img
-                    src={IN}
-                    alt="Saas"
-                    loading="lazy"
-                    className=
-                    {`mb-2 rounded-lg w-[276px] cursor-pointer 
-                    transition duration-300
-                    border border-primary-gray 
-                    hover:border-sec-gray
-                    `}             
-                />
+                    <img
+                        src={IN}
+                        alt="Saas"
+                        loading="lazy"
+                        className=
+                        {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                        transition duration-300
+                        border border-primary-gray 
+                        hover:border-sec-gray
+                        `}             
+                    />
                 </a>
 
                 <h3 className='font-semibold text-2xl mb-2'>Influencer</h3>
@@ -342,26 +345,7 @@ return(
                     <p className='font-mono text-xs mr-2'>Elementor</p>                 
 
                 </div>
-
-                {/* <div className='flex gap-1'>
-
-                <a href="https://wordpress.com/" target='_blank' 
-                className= 
-                {`bg-gray-300 px-3 py-1 text-xs  
-                rounded-full font-medium text-gray-70000
-                `}>
-                    Wordpress
-                </a>
-
-                <a href="https://elementor.com/" target='_blank' 
-                className= 
-                {`bg-[#92003ac0] px-3 py-1 text-xs 
-                rounded-full font-medium text-white
-                `}>
-                    Elementor
-                </a>
-
-                </div> */}
+               
 
             </div> 
 
@@ -411,6 +395,57 @@ return(
                     </p>
 
                     <p className='font-mono text-xs mr-2'>CSS</p>            
+
+                </div>
+
+            </div>        
+            <div className='flex flex-col items-center lg:items-start'>
+                <a href='https://oswaldodm.github.io/journal-app' target='_blank'>
+                <img
+                    src={journal}
+                    alt="Saas"
+                    loading="lazy"
+                    className=
+                    {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                    transition duration-300
+                    border border-primary-gray 
+                    hover:border-sec-gray
+                    `}             
+                />
+                </a>
+
+                <h3 className='font-semibold text-2xl mb-2'>Journal App</h3>
+                <p className=
+                {`text-gray-800 text-sm text-center lg:text-left
+                mb-2 lg:pr-5 2xl:pr-20 mq
+                
+                `}>
+                    CRUD app that allows you to create a user and keep track of your daily tasks.
+                </p>
+
+                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
+
+                    <p className = "text-sky-400 text-xl flex items-center ">
+                        <FaReact />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>React</p>                
+
+
+                    <div className = "text-blue-700 text-xl flex items-center "
+                    >   
+                        <img src={material} className='w-[20px] h-[20px]' />
+                    </div>
+
+                    <p className='font-mono text-xs mr-2'>Material</p> 
+
+
+                    <p className = "text-orange-300 text-[18px] flex items-center ">
+                        <SiFirebase />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>Firebase</p>               
+                                
 
                 </div>
 
